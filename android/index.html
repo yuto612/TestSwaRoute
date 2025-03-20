@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | TestSwaWebgl</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="shortcut icon" href="android/TemplateData/favicon.ico">
+    <link rel="stylesheet" href="android/TemplateData/style.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -23,8 +23,6 @@
         <div id="unity-build-title">TestSwaWebgl</div>
       </div>
     </div>
-    <script src="/android/Build/android.loader.js"></script>
-    <link rel="stylesheet" href="/android/TemplateData/style.css">
     
     <script>
 
@@ -59,9 +57,21 @@
         updateBannerVisibility();
       }
 
-      var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/android.loader.js";
-      var config = {
+      //var buildUrl = "Build";
+      //var loaderUrl = buildUrl + "/android.loader.js";
+      //var config = {
+        //dataUrl: buildUrl + "/android.data.br",
+        //frameworkUrl: buildUrl + "/android.framework.js.br",
+        //codeUrl: buildUrl + "/android.wasm.br",
+        //streamingAssetsUrl: "StreamingAssets",
+        //companyName: "DefaultCompany",
+        //productName: "TestSwaWebgl",
+        //productVersion: "0.1.0",
+        //showBanner: unityShowBanner,
+        var buildUrl = "android/Build";
+
+        var loaderUrl = buildUrl + "/android.loader.js";
+        var config = {
         dataUrl: buildUrl + "/android.data.br",
         frameworkUrl: buildUrl + "/android.framework.js.br",
         codeUrl: buildUrl + "/android.wasm.br",

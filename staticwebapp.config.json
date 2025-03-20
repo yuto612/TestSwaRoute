@@ -3,6 +3,14 @@
     {
       "route": "/android",
       "serve": "/android/index.html"
+    },
+    {
+      "route": "/android/Build/{file}",
+      "serve": "/android/Build/{file}"
+    },
+    {
+      "route": "/android/TemplateData/{file}",
+      "serve": "/android/TemplateData/{file}"
     }
   ],
   "mimeTypes": {
