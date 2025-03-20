@@ -5,17 +5,14 @@
       "serve": "/android/index.html"
     },
     {
-      "route": "/android",
-      "serve": "/android/Build/"
-    },
-    {
       "route": "/ios",
       "serve": "/ios/index.html"
-    },
-    {
-      "route": "/ios",
-      "serve": "/ios/Build/"
     }
-  ]
+  ],
+  "mimeTypes": {
+    ".wasm": "application/wasm",
+    ".data": "application/octet-stream",
+    ".js": "application/javascript",
+    ".css": "text/css"
   }
-  
+}
