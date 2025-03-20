@@ -5,20 +5,12 @@
       "serve": "/android/index.html"
     },
     {
-      "route": "/android/Build/{file}.js",
-      "serve": "/android/Build/{file}.js"
+      "route": "/android/Build/{file}",
+      "serve": "/android/Build/{file}"
     },
     {
-      "route": "/android/Build/{file}.wasm",
-      "serve": "/android/Build/{file}.wasm"
-    },
-    {
-      "route": "/android/Build/{file}.data",
-      "serve": "/android/Build/{file}.data"
-    },
-    {
-      "route": "/android/TemplateData/{file}.css",
-      "serve": "/android/TemplateData/{file}.css"
+      "route": "/android/TemplateData/{file}",
+      "serve": "/android/TemplateData/{file}"
     }
   ],
   "mimeTypes": {
