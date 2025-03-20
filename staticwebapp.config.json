@@ -11,8 +11,8 @@
     {
       "route": "/android/TemplateData/{file}",
       "serve": "/android/TemplateData/{file}"
-    }
-
+    },
+    
     {
       "route": "/ios",
       "serve": "/ios/index.html"
