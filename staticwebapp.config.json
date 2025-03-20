@@ -5,14 +5,47 @@
       "serve": "/android/index.html"
     },
     {
+      "route": "/android/Build/android.loader.js",
+      "serve": "/android/Build/android.loader.js"
+    },
+    {
+      "route": "/android/Build/android.wasm.br",
+      "serve": "/android/Build/android.wasm.br"
+    },
+    {
+      "route": "/android/Build/android.framework.js.br",
+      "serve": "/android/Build/android.framework.js.br"
+    },
+    {
+      "route": "/android/Build/android.data.br",
+      "serve": "/android/Build/android.data.br"
+    },
+
+    {
       "route": "/ios",
       "serve": "/ios/index.html"
+    },
+    {
+      "route": "/ios/Build/ios.loader.js",
+      "serve": "/ios/Build/ios.loader.js"
+    },
+    {
+      "route": "/ios/Build/ios.wasm.br",
+      "serve": "/ios/Build/ios.wasm.br"
+    },
+    {
+      "route": "/ios/Build/ios.framework.js.br",
+      "serve": "/ios/Build/ios.framework.js.br"
+    },
+    {
+      "route": "/ios/Build/ios.data.br",
+      "serve": "/ios/Build/ios.data.br"
     }
   ],
   "mimeTypes": {
     ".wasm": "application/wasm",
     ".data": "application/octet-stream",
     ".js": "application/javascript",
-    ".css": "text/css"
+    ".br": "application/octet-stream"
   }
 }
