@@ -1,0 +1,13 @@
+{
+    "routes": [
+      {
+        "route": "/android",
+        "serve": "/android/index.html"
+      },
+      {
+        "route": "/ios",
+        "serve": "/ios/index.html"
+      }
+    ]
+  }
+  
