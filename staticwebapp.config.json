@@ -1,13 +1,29 @@
 {
-    "routes": [
-      {
-        "route": "/android",
-        "serve": "/android/index.html"
-      },
-      {
-        "route": "/ios",
-        "serve": "/ios/index.html"
-      }
-    ]
+  "routes": [
+    {
+      "route": "/android",
+      "serve": "/android/index.html"
+    },
+    {
+      "route": "/android/*",
+      "serve": "/android/index.html"
+    },
+    {
+      "route": "/android/Build/*",
+      "serve": "/android/Build/"
+    },
+    {
+      "route": "/ios",
+      "serve": "/ios/index.html"
+    },
+    {
+      "route": "/ios/*",
+      "serve": "/ios/index.html"
+    },
+    {
+      "route": "/ios/Build/*",
+      "serve": "/ios/Build/"
+    }
+  ]
   }
   
