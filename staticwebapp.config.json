@@ -5,24 +5,40 @@
       "serve": "/android/index.html"
     },
     {
-      "route": "/android/Build/{*rest}",
-      "serve": "/android/Build/{*rest}"
+      "route": "/android/Build/*.js",
+      "serve": "/android/Build/*.js"
     },
     {
-      "route": "/android/TemplateData/{*rest}",
-      "serve": "/android/TemplateData/{*rest}"
+      "route": "/android/Build/*.wasm",
+      "serve": "/android/Build/*.wasm"
+    },
+    {
+      "route": "/android/Build/*.data",
+      "serve": "/android/Build/*.data"
+    },
+    {
+      "route": "/android/TemplateData/*.css",
+      "serve": "/android/TemplateData/*.css"
     },
     {
       "route": "/ios",
       "serve": "/ios/index.html"
     },
     {
-      "route": "/ios/Build/{*rest}",
-      "serve": "/ios/Build/{*rest}"
+      "route": "/ios/Build/*.js",
+      "serve": "/ios/Build/*.js"
     },
     {
-      "route": "/ios/TemplateData/{*rest}",
-      "serve": "/ios/TemplateData/{*rest}"
+      "route": "/ios/Build/*.wasm",
+      "serve": "/ios/Build/*.wasm"
+    },
+    {
+      "route": "/ios/Build/*.data",
+      "serve": "/ios/Build/*.data"
+    },
+    {
+      "route": "/ios/TemplateData/*.css",
+      "serve": "/ios/TemplateData/*.css"
     }
   ],
   "mimeTypes": {
