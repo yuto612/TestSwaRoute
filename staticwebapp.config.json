@@ -5,11 +5,7 @@
       "serve": "/android/index.html"
     },
     {
-      "route": "/android/*",
-      "serve": "/android/index.html"
-    },
-    {
-      "route": "/android/Build/*",
+      "route": "/android/Build/",
       "serve": "/android/Build/"
     },
     {
@@ -17,11 +13,7 @@
       "serve": "/ios/index.html"
     },
     {
-      "route": "/ios/*",
-      "serve": "/ios/index.html"
-    },
-    {
-      "route": "/ios/Build/*",
+      "route": "/ios/Build/",
       "serve": "/ios/Build/"
     }
   ]
