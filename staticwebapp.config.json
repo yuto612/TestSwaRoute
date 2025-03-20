@@ -12,6 +12,19 @@
       "route": "/android/TemplateData/{file}",
       "serve": "/android/TemplateData/{file}"
     }
+
+    {
+      "route": "/ios",
+      "serve": "/ios/index.html"
+    },
+    {
+      "route": "/ios/Build/{file}",
+      "serve": "/ios/Build/{file}"
+    },
+    {
+      "route": "/ios/TemplateData/{file}",
+      "serve": "/ios/TemplateData/{file}"
+    }
   ],
   "mimeTypes": {
     ".wasm": "application/wasm",
